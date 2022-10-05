@@ -150,3 +150,33 @@ section{
   bottom: 0;
   left: -8px;
 }
+@media only screen and (max-width: 870px) {
+  nav{
+   gap: 1rem;
+   flex-wrap: wrap;
+   top: 8rem;
+   text-align: center;
+   justify-content: center;
+     right: 0;
+     left: 0;
+  }
+  .logo{
+   left: 40%;
+  }
+  .sub-container{
+    width: 30%;
+  }
+  .header-text{
+    width: 10%;
+  }
+  #sub-line-one{
+    right: 0px;
+  }
+ }
+ @media only screen and (max-width: 870px) {
+
+  #sub-line-one{
+    top: -50px;
+  
+  }
+ }
